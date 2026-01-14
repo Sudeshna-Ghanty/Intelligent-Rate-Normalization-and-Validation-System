@@ -1,0 +1,82 @@
+/* ===============================
+   BADGES (Status + Confidence)
+   =============================== */
+
+.badge {
+  padding: 6px 12px;
+  border-radius: 14px;
+  font-size: 12px;
+  font-weight: 600;
+  display: inline-block;
+  text-align: center;
+  min-width: 80px;
+}
+
+/* ---------- STATUS BADGES ---------- */
+
+.status-clean {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.status-new {
+  background-color: #cce5ff;
+  color: #004085;
+}
+
+.status-ambiguous {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.status-manual {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.status-default {
+  background-color: #e2e3e5;
+  color: #383d41;
+}
+
+/* ---------- CONFIDENCE BADGES ---------- */
+
+.confidence-high {
+  background-color: #28a745;
+  color: #ffffff;
+}
+
+.confidence-medium {
+  background-color: #ffc107;
+  color: #212529;
+}
+
+.confidence-low {
+  background-color: #dc3545;
+  color: #ffffff;
+}
+
+/* ---------- ICON BUTTON ---------- */
+
+.icon-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.icon-btn:hover {
+  opacity: 0.7;
+}
+
+/* ---------- DETAILS PANEL ---------- */
+
+.details-row {
+  background-color: #f9f9f9;
+}
+
+.details-box {
+  padding: 12px;
+  border-left: 4px solid #dc3545;
+  background-color: #fff;
+}

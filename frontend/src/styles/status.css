@@ -1,0 +1,34 @@
+.status-clean {
+  background-color: #ecfdf5;
+}
+
+.status-ambiguous {
+  background-color: #fffbeb;
+}
+
+.status-invalid {
+  background-color: #fef2f2;
+}
+
+.status-badge {
+  font-weight: 600;
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.badge-clean {
+  background-color: #10b981;
+  color: white;
+}
+
+.badge-ambiguous {
+  background-color: #f59e0b;
+  color: white;
+}
+
+.badge-invalid {
+  background-color: #ef4444;
+  color: white;
+}
